@@ -1,0 +1,10 @@
+Example:
+
+from  mfsm import *
+import time
+
+if __name__ == '__main__':
+    miner = Miner(int(EntityNames.Miner_Bob))
+    for i in range(30):
+        miner.update()
+        time.sleep(1)
